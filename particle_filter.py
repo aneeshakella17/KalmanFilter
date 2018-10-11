@@ -11,7 +11,7 @@ import math
 import matplotlib.pyplot as plt
 
 # Estimation parameter of PF
-Q = np.diag([0.1, 0.1, math.radians(1.0), 1.0]) ** 2 # range error
+Q = np.diag([10, 10, math.radians(1.0), 10]) ** 2 # range error
 R = np.diag([1.0, math.radians(40.0)]) ** 2  # input error
 
 #  Simulation parameter
